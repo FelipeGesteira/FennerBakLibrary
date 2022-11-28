@@ -142,11 +142,13 @@
 
     .lista-menu__item:hover {
         background: var(--azul-degrade);
+        list-style: none;
     }
 
     .lista-menu__item:hover>.lista-menu__link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
+        list-style: none;
     }
 
 }
