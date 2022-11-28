@@ -38,7 +38,6 @@
     top: 100%;
     width: 60vw;
     list-style: none;
-
 }
 
 .container__botao:checked~.lista-menu {
@@ -48,7 +47,6 @@
 
 .lista-menu__titulo,
 .lista-menu__item {
-    list-style: none;
     padding: 1em;
     background-color: var(--branco);
 }
@@ -65,7 +63,6 @@
     background-clip: text;
     text-transform: uppercase;
     cursor:pointer;
-    list-style: none;
 }
 
 .container__botao {
@@ -78,6 +75,7 @@
 
 .opções {
     display: none;
+    list-style: none;
 }
 
 .container__texto {
@@ -144,13 +142,11 @@
 
     .lista-menu__item:hover {
         background: var(--azul-degrade);
-        list-style: none;
     }
 
     .lista-menu__item:hover>.lista-menu__link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
-        list-style: none;
     }
 
 }

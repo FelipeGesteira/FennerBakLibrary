@@ -9,6 +9,7 @@ hr {
 
 .lista-rodapé {
     display: none;
+    list-style: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -19,6 +20,7 @@ hr {
 
     .lista-rodapé {
         display: block;
+        list-style: none;
     }
 
     .lista-rodapé__item {
