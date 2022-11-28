@@ -46,7 +46,7 @@
 
 .lista-menu__titulo,
 .lista-menu__item {
-    list-style-type: none;
+    list-style: none;
     padding: 1em;
     background-color: var(--branco);
 }
@@ -63,7 +63,7 @@
     background-clip: text;
     text-transform: uppercase;
     cursor:pointer;
-    list-style-type: none;
+    list-style: none;
 }
 
 .container__botao {
